@@ -6,7 +6,7 @@
 ![Пример главного экрана приложения с расписанием сеансов на месяц.](![image](https://github.com/RinChn/CinemaAdminSoft/assets/98212167/909e486b-209f-407b-af65-232f3507dcc3))
 
 ![Пример экрана с информацией о сеансе.](![image](https://github.com/RinChn/CinemaAdminSoft/assets/98212167/160c26f4-b0ae-4f54-a6dd-b6e6e53598b9))
-![Пример экрана с информацией о репертуаре на месяц.](![image](https://github.com/RinChn/CinemaAdminSoft/assets/98212167/9fea5e13-f042-4e53-a6e2-73b35e8047de)
+![Пример экрана с информацией о репертуаре на месяц.](![image](https://github.com/RinChn/CinemaAdminSoft/assets/98212167/9fea5e13-f042-4e53-a6e2-73b35e8047de))
 
 ## Установка
 
