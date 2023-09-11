@@ -1,0 +1,140 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>sp.files</groupId>
+  <artifactId>sp.files</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Cinema admin</name>
+  <properties>
+	<maven.compiler.source>1.8</maven.compiler.source>
+	<maven.compiler.target>1.8</maven.compiler.target>
+	<junit.jupiter.version>5.8.1</junit.jupiter.version>
+	<junit.platform.version>1.8.1</junit.platform.version>
+	<hibernate.version>6.1.0.Final</hibernate.version>
+	<mysql.version>5.1.24</mysql.version>
+</properties>
+<build>
+  <plugins>
+    <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-javadoc-plugin</artifactId>
+      <version>2.9</version>
+      <configuration>
+      </configuration>
+    </plugin>
+  </plugins>
+</build>
+<dependencies>
+	<dependency>
+	    <groupId>javax.persistence</groupId>
+	    <artifactId>javax.persistence-api</artifactId>
+	    <version>2.2</version>
+	   <scope>provided</scope>
+	</dependency>
+		<dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>6.1.0.Final</version>
+        </dependency>
+        
+       <dependency> 
+        	<groupId>jakarta.persistence</groupId>
+    		<artifactId>jakarta.persistence-api</artifactId>
+    		<version>3.0.0</version>
+    	</dependency>
+		
+
+        <!--dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>6.1.0.Final</version>
+        </dependency-->
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.32</version>
+        </dependency>
+	  <dependency>
+		  <groupId>org.glassfish.jaxb</groupId>
+		  <artifactId>jaxb-runtime</artifactId>
+		  <version>4.0.2</version>
+	  </dependency>
+		  
+		  <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>kernel</artifactId>         
+	         <version>7.0.2</version>     
+	      </dependency>  
+	      
+	      <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>io</artifactId>         
+	         <version>7.0.2</version>     
+	      </dependency>  
+	      
+	      <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>layout</artifactId>         
+	         <version>7.0.2</version>
+	      </dependency>  
+	      
+	      <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>forms</artifactId>         
+	         <version>7.0.2</version>    
+	      </dependency>  
+	      
+	      <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>pdfa</artifactId>         
+	         <version>7.0.2</version>     
+	      </dependency>  
+	      
+	      <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>sign</artifactId>         
+	         <version>7.0.2</version>     
+	      </dependency>  
+	      
+	      <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>barcodes</artifactId>         
+	         <version>7.0.2</version>     
+	      </dependency>  
+	      
+	      <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>font-asian</artifactId>         
+	         <version>7.0.2</version>     
+	      </dependency>  
+	      
+	      <dependency>         
+	         <groupId>com.itextpdf</groupId>         
+	         <artifactId>hyph</artifactId>         
+	         <version>7.0.2</version>    
+	      </dependency> 
+		<dependency>
+		    <groupId>com.itextpdf</groupId>
+		    <artifactId>itextpdf</artifactId>
+		    <version>5.3.4</version>
+		</dependency>
+		<dependency>
+		    <groupId>org.mockito</groupId>
+		    <artifactId>mockito-all</artifactId>
+		    <version>2.0.2-beta</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-api</artifactId>
+		    <version>1.6.4</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.slf4j</groupId>
+		    <artifactId>slf4j-log4j12</artifactId>
+		    <version>1.6.4</version>
+		</dependency>
+	</dependencies>
+	
+</project>
